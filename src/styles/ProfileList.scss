@@ -1,0 +1,24 @@
+
+.card:hover {
+-webkit-box-shadow: 2px 2px 30px -6px rgba(107,93,107,1);
+-moz-box-shadow: 2px 2px 30px -6px rgba(107,93,107,1);
+box-shadow: 2px 2px 30px -6px rgba(107,93,107,1);
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease;
+  }
+  
+.card {
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
+
+  .button {
+    margin-top: 200px;
+  }
+
+ .bold {
+   font-weight: bold;
+   
+ }

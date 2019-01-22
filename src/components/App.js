@@ -13,8 +13,8 @@ class App extends React.Component {
         }
     
     onButtonClick = (profile) => {
-        const removeFav = [...this.state.profiles].filter((el) => 
-        el.id !== profile.id)
+        
+        const removeFav = [...this.state.profiles].filter((el) => el.id !== profile.id)
         this.setState({
           profiles: removeFav,
         })

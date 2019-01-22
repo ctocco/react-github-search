@@ -1,0 +1,20 @@
+.card:hover {
+  -webkit-box-shadow: 2px 2px 30px -6px #6b5d6b;
+  -moz-box-shadow: 2px 2px 30px -6px #6b5d6b;
+  box-shadow: 2px 2px 30px -6px #6b5d6b;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease; }
+
+.card {
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease; }
+
+.button {
+  margin-top: 200px; }
+
+.bold {
+  font-weight: bold; }
+
+/*# sourceMappingURL=ProfileList.css.map */
