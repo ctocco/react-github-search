@@ -12,16 +12,13 @@ class App extends React.Component {
         this.setState({ profiles: [...this.state.profiles, response.data]});
         }
     
-    onButtonClick = (profile) => {
-        
-        const removeFav = [...this.state.profiles].filter((el) => el.id !== profile.id)
+    onButtonClick = (id) => {
+        const removeFav = [...this.state.profiles].filter((el) => el.id !== Number(id))
         this.setState({
           profiles: removeFav,
         })
     }
     
-    
-
     render() {
     return (
         <div className="container" style={{ marginTop: '50px'}}>
@@ -34,3 +31,4 @@ class App extends React.Component {
 }
 
 export default App;
+
