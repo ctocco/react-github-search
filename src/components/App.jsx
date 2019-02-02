@@ -11,8 +11,7 @@ class App extends React.Component {
     profiles: [],
     hasError: false,
     term: ""
-    // turnModalOn: null,
-    // modalMessage null,
+
   };
 
   onSearchSubmit = async term => {
