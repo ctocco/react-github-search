@@ -26,6 +26,7 @@ class App extends React.Component {
         }
       });
     } catch (err) {
+      //this will show error message then it will disappear
       this.setState({ hasError: true, term: term });
       setTimeout(() => {
         this.setState({ hasError: false });
